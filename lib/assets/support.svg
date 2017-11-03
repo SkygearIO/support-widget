@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="40px" viewBox="0 0 42 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Slice 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="12.4934024" y="29.3927998" width="6.13819772" height="3.25477372" rx="1.62738686"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-Copy" transform="translate(4.000000, 4.000000)">
+            <g id="Group-10">
+                <path d="M31.1312888,13.4471209 C31.1312888,6.02048111 24.9381639,0 17.2985572,0 C9.65895053,0 3.46582566,6.02048111 3.46582566,13.4471209" id="Oval" stroke="#FFFFFF" stroke-width="2"></path>
+                <path d="M7.53324266,14.1094997 C6.79454954,13.4864014 5.93691625,13.1297805 5.02216177,13.1297805 C2.24849841,13.1297805 0,16.4085071 0,20.4530213 C0,24.4975356 2.24849841,27.7762622 5.02216177,27.7762622 C5.93691625,27.7762622 6.79454954,27.4196413 7.53324266,26.796543 L7.53324266,14.1094997 Z" id="Combined-Shape" stroke="#FFFFFF" stroke-width="2"></path>
+                <path d="M34.5971158,14.1094997 C33.8584227,13.4864014 33.0007894,13.1297805 32.0860349,13.1297805 C29.3123716,13.1297805 27.0638732,16.4085071 27.0638732,20.4530213 C27.0638732,24.4975356 29.3123716,27.7762622 32.0860349,27.7762622 C33.0007894,27.7762622 33.8584227,27.4196413 34.5971158,26.796543 L34.5971158,14.1094997 Z" id="Combined-Shape" stroke="#FFFFFF" stroke-width="2" transform="translate(30.830494, 20.453021) scale(-1, 1) translate(-30.830494, -20.453021) "></path>
+                <path d="M5.76618574,27.4887572 C5.76618574,27.4887572 6.30066408,31.4211179 15.0854347,31.4211179" id="Path-6" stroke="#FFFFFF" stroke-width="2"></path>
+                <g id="Rectangle-5">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <rect stroke="#FFFFFF" stroke-width="2" x="13.4934024" y="30.3927998" width="4.13819772" height="1.25477372" rx="0.627386859"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

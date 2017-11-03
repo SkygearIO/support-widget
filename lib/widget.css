@@ -1,0 +1,107 @@
+.SkygearSupportWidget {
+  font-family: 'Lato', Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  margin: 0 2rem 2rem 0;
+}
+
+.SkygearSupportWidget a, .SkygearSupportWidget a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.SkygearSupportWidget > * {
+  box-shadow: 5px 0 20px 5px rgba(0, 0, 0, .15);
+}
+
+.SkygearSupportWidget .Button {
+  float: right;
+  padding: 0.6rem;
+  border-radius: 100%;
+  z-index: 999999999;
+  background: #f99265;
+  cursor: pointer;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  transition: all 300ms;
+}
+
+.SkygearSupportWidget .Button:hover {
+  background: #ffa580;
+}
+
+.SkygearSupportWidget .Button__Icon {
+  display: block;
+  background-size: 42px 40px;
+  width: 42px;
+  height: 40px;
+}
+
+.SkygearSupportWidget .Button__Icon {
+  background: url(./assets/support.svg);
+}
+
+.SkygearSupportWidget--Open .Button__Icon {
+  background: url(./assets/close.svg);
+}
+
+.SkygearSupportWidget .Window {
+  visibility: none;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 0;
+  height: 0;
+  transition: visibility 0s, width 300ms ease-in-out, height 300ms ease-in-out;
+}
+
+.SkygearSupportWidget--Open .Window {
+  visibility: block;
+  width: 300px;
+  height: 180px;
+  background: #FFF;
+}
+
+.SkygearSupportWidget .Window__Title {
+  background: #0078d7;
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 0.8rem 0;
+}
+
+.SkygearSupportWidget .Window__Title__SkygearLogo {
+  display: inline-block;
+  width: 80px;
+  height: 17px;
+  background: url(./assets/skygear-logo.svg);
+  background-size: 80px 17px;
+  vertical-align: middle;
+  margin: 0 2px 0 5px;
+}
+
+.SkygearSupportWidget .Window__Body {
+  display: flex;
+  flex-direction: row;
+}
+
+.SkygearSupportWidget .Window__Link {
+  display: block;
+  font-size: 12px;
+  width: 108px;
+  text-align: center;
+  padding-top: 50px;
+  margin: 20px;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.SkygearSupportWidget .Window__Link--Forum {
+  background-image: url(./assets/forum.svg);
+}
+
+.SkygearSupportWidget .Window__Link--Slack {
+  background-image: url(./assets/slack.svg);
+}
