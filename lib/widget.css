@@ -3,7 +3,7 @@
   position: fixed;
   right: 0;
   bottom: 0;
-  margin: 0 2rem 2rem 0;
+  margin: 0 2rem 2rem 2rem;
 }
 
 .SkygearSupportWidget a, .SkygearSupportWidget a:visited {
@@ -51,13 +51,15 @@
   border-radius: 10px;
   overflow: hidden;
   width: 0;
+  max-width: 0;
   height: 0;
-  transition: visibility 0s, width 300ms ease-in-out, height 300ms ease-in-out;
+  transition: visibility 0s, max-width 300ms ease-in-out, width 300ms ease-in-out, height 300ms ease-in-out;
 }
 
 .SkygearSupportWidget--Open .Window {
   visibility: block;
-  width: 300px;
+  width: 100%;
+  max-width: 300px;
   height: 180px;
   background: #FFF;
 }
@@ -90,7 +92,7 @@
 .SkygearSupportWidget .Window__Link {
   display: block;
   font-size: 12px;
-  width: 108px;
+  width: 50%;
   text-align: center;
   padding-top: 50px;
   margin: 20px;
