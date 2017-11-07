@@ -56,12 +56,17 @@
   transition: visibility 0s, max-width 300ms ease-in-out, width 300ms ease-in-out, height 300ms ease-in-out;
 }
 
+.SkygearSupportWidget .Window {
+  box-shadow: none;
+}
+
 .SkygearSupportWidget--Open .Window {
   visibility: block;
   width: 100%;
   max-width: 300px;
   height: 180px;
   background: #FFF;
+  box-shadow: 5px 0 20px 5px rgba(0, 0, 0, .15);
 }
 
 .SkygearSupportWidget .Window__Title {
